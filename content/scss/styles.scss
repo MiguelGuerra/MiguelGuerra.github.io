@@ -1,7 +1,7 @@
 $font1: 'Roboto', sans-serif;
 $color1: #F6C400;
 $color2: black;
-$color3: #555;
+$color3: #F9E075; 
 
 $gray: #eee;
 $white: black;
@@ -506,12 +506,12 @@ body{
   #about-me{
     color: $color1;
     background-color: $color2;
-    padding: 10% 7%;
+    padding: 5% 7%;
     background-color: black;
 		background-image: url('../img/profile-pic.jpg');
 		background-repeat: no-repeat;
-    background-size: 433px;
-		background-position: right;
+    background-size: 481px;
+    background-position: right;
     .text{
 			width: 50%;
 			display: inline-block;
@@ -669,8 +669,10 @@ body{
             margin-right: 0;
           }
           img{
-      			width: 98%;
-      			display: inline-block;
+            width: auto;
+            height: 80px;
+            display: block;
+            margin: 0 auto;
           }
           p{
             @media(max-width: 936px){
