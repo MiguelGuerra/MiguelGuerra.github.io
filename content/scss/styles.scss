@@ -679,8 +679,10 @@ body{
              font-size: 11px;
             }
           }
-          @media(max-width: 936px){
-            width: 9%;
+          @media(max-width: 650px){
+            width: 100%;
+            display: block;
+            margin-bottom: 42px;
           }
         }
   		}

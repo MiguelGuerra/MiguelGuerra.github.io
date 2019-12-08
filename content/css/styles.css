@@ -624,9 +624,11 @@ body {
           @media (max-width: 936px) {
             body #my-skills .wrapper .one-row .img-div p {
               font-size: 11px; } }
-          @media (max-width: 936px) {
+          @media (max-width: 650px) {
             body #my-skills .wrapper .one-row .img-div {
-              width: 9%; } }
+              width: 100%;
+              display: block;
+              margin-bottom: 42px; } }
   body footer {
     background-color: black;
     height: 120px;
